@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var electrolyteTxt: UITextField!
     @IBOutlet weak var vitaminTxt: UITextField!
     @IBOutlet weak var caloriesTxt: UITextField!
+    @IBOutlet weak var wellnessTxt: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,13 +52,23 @@ class ViewController: UIViewController {
 //            "version": "1"
 //        ]
         
-        let c = Double(carbsTxt.text!)!
-        let f = Double(fatTxt.text!)!
-        let p = Double(proteinTxt.text!)!
-        let electrolytes = Double(electrolyteTxt.text!)!
-        let vitamins = Double(vitaminTxt.text!)!
+        var c = 40.0
+        var f = 20.0
+        var p = 140.0
+        var electrolytes = 2000.0
+        var vitamins = 100.0
+        var calories = 50.0
         
-        let calories = c * 4 + f * 9 + p * 4
+        c = Double(carbsTxt.text!)!
+        f = Double(fatTxt.text!)!
+        p = Double(proteinTxt.text!)!
+        electrolytes = Double(electrolyteTxt.text!)!
+        vitamins = Double(vitaminTxt.text!)!
+
+        calories = c * 4 + f * 9 + p * 4
+        
+        caloriesTxt.text = "\(calories) cal"
+    
         
         var caloriescore = 2000.0
         var electroscore = 2000.0
@@ -83,6 +94,10 @@ class ViewController: UIViewController {
         else {
             vitascore = ((5 * (300 - vitamins)).squareRoot() / (2).squareRoot()) + 50
         }
+        
+//        caloriescore = 1.0
+//        electroscore = 100.0
+//        vitascore = 100.0
         
         
         let jsonObject: [String: Any] = [
@@ -120,12 +135,14 @@ class ViewController: UIViewController {
 //            var uuid: String
 //        }
         
-        struct mageResponse: Codable {
-            var prediction: String
+        struct mageResponse: Decodable {
+            let prediction: Int
         }
         
         // Create the HTTP request
         let session = URLSession.shared
+        
+/*
         let task = session.dataTask(with: request) { (data, response, error) in
 
             if let error = error {
@@ -133,9 +150,11 @@ class ViewController: UIViewController {
                 print("error")
             } else if let data = data {
 //                print(json["data"] as? [String:Any])
-                let filmSummary = try? JSONDecoder().decode(mageResponse.self, from: data)
+//                let jsonData = response.data(using: .utf8)
+//                let filmSummary = try? JSONDecoder().decode(mageResponse.self, from: data)
+                guard let responses: [mageResponse] = try! JSONDecoder().decode([mageResponse].self, from: data)
 //                print(String(data: data, encoding: .utf8)!)
-//                print(prediction)
+                print(responses.first?.prediction)
                 
                 let someStr = (String(data: data, encoding: .utf8)!)
 //                for i in someStr{
@@ -145,7 +164,7 @@ class ViewController: UIViewController {
                                
                 let shorterStr = someStr.dropFirst(33)
                
-                let someShortStr = String(shorterStr.prefix(1))
+                let someShortStr = String(shorterStr.prefix(10))
 //                let someNum = Int(someShortStr)
                 
                 print("Prediction Score:" + someShortStr)
@@ -167,9 +186,40 @@ class ViewController: UIViewController {
             
         }
         
+ */
+        var semaphore = DispatchSemaphore (value: 0)
         
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+          guard let data = data else {
+            print(String(describing: error))
+            
+            semaphore.signal()
+            return
+          }
+//          print(String(data: data, encoding: .utf8)!)
+            let responses: [mageResponse] = try! JSONDecoder().decode([mageResponse].self, from: data)
+//            print(responses.first?.prediction)
+            
+//            nutritionTxt.text = String(responses.first?.prediction)
+            
+            let someStr = (String(data: data, encoding: .utf8)!)
+//                for i in someStr{
+//                    if (i ==32){}
+//
+//                }
+                           
+            let shorterStr = someStr.dropFirst(33)
+           
+            let someShortStr = String(shorterStr.prefix(1))
+//                let someNum = Int(someShortStr)
+            
+            self.wellnessTxt.text = someShortStr
+            print("Prediction Score:" + someShortStr)
+          semaphore.signal()
+        }
         
         task.resume()
+        semaphore.signal()
        
             
         
