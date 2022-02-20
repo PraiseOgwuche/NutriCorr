@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B523626F27C2277D005CCE68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523626E27C2277D005CCE68 /* AppDelegate.swift */; };
+		B523627127C2277D005CCE68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523627027C2277D005CCE68 /* SceneDelegate.swift */; };
+		B523627327C2277D005CCE68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523627227C2277D005CCE68 /* ViewController.swift */; };
+		B523627627C2277D005CCE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B523627427C2277D005CCE68 /* Main.storyboard */; };
+		B523627827C2277E005CCE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B523627727C2277E005CCE68 /* Assets.xcassets */; };
+		B523627B27C2277E005CCE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B523627927C2277E005CCE68 /* LaunchScreen.storyboard */; };
+		B523628627C2277E005CCE68 /* MageApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523628527C2277E005CCE68 /* MageApiTests.swift */; };
+		B523629027C2277E005CCE68 /* MageApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523628F27C2277E005CCE68 /* MageApiUITests.swift */; };
+		B523629227C2277E005CCE68 /* MageApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523629127C2277E005CCE68 /* MageApiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B523628227C2277E005CCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B523626327C2277D005CCE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B523626A27C2277D005CCE68;
+			remoteInfo = MageApi;
+		};
+		B523628C27C2277E005CCE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B523626327C2277D005CCE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B523626A27C2277D005CCE68;
+			remoteInfo = MageApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B523626B27C2277D005CCE68 /* MageApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MageApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B523626E27C2277D005CCE68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B523627027C2277D005CCE68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B523627227C2277D005CCE68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B523627527C2277D005CCE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B523627727C2277E005CCE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B523627A27C2277E005CCE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B523627C27C2277E005CCE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B523628127C2277E005CCE68 /* MageApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MageApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B523628527C2277E005CCE68 /* MageApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MageApiTests.swift; sourceTree = "<group>"; };
+		B523628B27C2277E005CCE68 /* MageApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MageApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B523628F27C2277E005CCE68 /* MageApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MageApiUITests.swift; sourceTree = "<group>"; };
+		B523629127C2277E005CCE68 /* MageApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MageApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B523626827C2277D005CCE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523627E27C2277E005CCE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523628827C2277E005CCE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B523626227C2277D005CCE68 = {
+			isa = PBXGroup;
+			children = (
+				B523626D27C2277D005CCE68 /* MageApi */,
+				B523628427C2277E005CCE68 /* MageApiTests */,
+				B523628E27C2277E005CCE68 /* MageApiUITests */,
+				B523626C27C2277D005CCE68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B523626C27C2277D005CCE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B523626B27C2277D005CCE68 /* MageApi.app */,
+				B523628127C2277E005CCE68 /* MageApiTests.xctest */,
+				B523628B27C2277E005CCE68 /* MageApiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B523626D27C2277D005CCE68 /* MageApi */ = {
+			isa = PBXGroup;
+			children = (
+				B523626E27C2277D005CCE68 /* AppDelegate.swift */,
+				B523627027C2277D005CCE68 /* SceneDelegate.swift */,
+				B523627227C2277D005CCE68 /* ViewController.swift */,
+				B523627427C2277D005CCE68 /* Main.storyboard */,
+				B523627727C2277E005CCE68 /* Assets.xcassets */,
+				B523627927C2277E005CCE68 /* LaunchScreen.storyboard */,
+				B523627C27C2277E005CCE68 /* Info.plist */,
+			);
+			path = MageApi;
+			sourceTree = "<group>";
+		};
+		B523628427C2277E005CCE68 /* MageApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B523628527C2277E005CCE68 /* MageApiTests.swift */,
+			);
+			path = MageApiTests;
+			sourceTree = "<group>";
+		};
+		B523628E27C2277E005CCE68 /* MageApiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B523628F27C2277E005CCE68 /* MageApiUITests.swift */,
+				B523629127C2277E005CCE68 /* MageApiUITestsLaunchTests.swift */,
+			);
+			path = MageApiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B523626A27C2277D005CCE68 /* MageApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B523629527C2277E005CCE68 /* Build configuration list for PBXNativeTarget "MageApi" */;
+			buildPhases = (
+				B523626727C2277D005CCE68 /* Sources */,
+				B523626827C2277D005CCE68 /* Frameworks */,
+				B523626927C2277D005CCE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MageApi;
+			productName = MageApi;
+			productReference = B523626B27C2277D005CCE68 /* MageApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B523628027C2277E005CCE68 /* MageApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B523629827C2277E005CCE68 /* Build configuration list for PBXNativeTarget "MageApiTests" */;
+			buildPhases = (
+				B523627D27C2277E005CCE68 /* Sources */,
+				B523627E27C2277E005CCE68 /* Frameworks */,
+				B523627F27C2277E005CCE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B523628327C2277E005CCE68 /* PBXTargetDependency */,
+			);
+			name = MageApiTests;
+			productName = MageApiTests;
+			productReference = B523628127C2277E005CCE68 /* MageApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B523628A27C2277E005CCE68 /* MageApiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B523629B27C2277E005CCE68 /* Build configuration list for PBXNativeTarget "MageApiUITests" */;
+			buildPhases = (
+				B523628727C2277E005CCE68 /* Sources */,
+				B523628827C2277E005CCE68 /* Frameworks */,
+				B523628927C2277E005CCE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B523628D27C2277E005CCE68 /* PBXTargetDependency */,
+			);
+			name = MageApiUITests;
+			productName = MageApiUITests;
+			productReference = B523628B27C2277E005CCE68 /* MageApiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B523626327C2277D005CCE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B523626A27C2277D005CCE68 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B523628027C2277E005CCE68 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B523626A27C2277D005CCE68;
+					};
+					B523628A27C2277E005CCE68 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B523626A27C2277D005CCE68;
+					};
+				};
+			};
+			buildConfigurationList = B523626627C2277D005CCE68 /* Build configuration list for PBXProject "MageApi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B523626227C2277D005CCE68;
+			productRefGroup = B523626C27C2277D005CCE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B523626A27C2277D005CCE68 /* MageApi */,
+				B523628027C2277E005CCE68 /* MageApiTests */,
+				B523628A27C2277E005CCE68 /* MageApiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B523626927C2277D005CCE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523627B27C2277E005CCE68 /* LaunchScreen.storyboard in Resources */,
+				B523627827C2277E005CCE68 /* Assets.xcassets in Resources */,
+				B523627627C2277D005CCE68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523627F27C2277E005CCE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523628927C2277E005CCE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B523626727C2277D005CCE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523627327C2277D005CCE68 /* ViewController.swift in Sources */,
+				B523626F27C2277D005CCE68 /* AppDelegate.swift in Sources */,
+				B523627127C2277D005CCE68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523627D27C2277E005CCE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523628627C2277E005CCE68 /* MageApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523628727C2277E005CCE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523629027C2277E005CCE68 /* MageApiUITests.swift in Sources */,
+				B523629227C2277E005CCE68 /* MageApiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B523628327C2277E005CCE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B523626A27C2277D005CCE68 /* MageApi */;
+			targetProxy = B523628227C2277E005CCE68 /* PBXContainerItemProxy */;
+		};
+		B523628D27C2277E005CCE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B523626A27C2277D005CCE68 /* MageApi */;
+			targetProxy = B523628C27C2277E005CCE68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B523627427C2277D005CCE68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B523627527C2277D005CCE68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B523627927C2277E005CCE68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B523627A27C2277E005CCE68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B523629327C2277E005CCE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B523629427C2277E005CCE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B523629627C2277E005CCE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BB552UV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MageApi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Treehacks2022.MageApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B523629727C2277E005CCE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BB552UV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MageApi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Treehacks2022.MageApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B523629927C2277E005CCE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BB552UV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Treehacks2022.MageApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MageApi.app/MageApi";
+			};
+			name = Debug;
+		};
+		B523629A27C2277E005CCE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BB552UV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Treehacks2022.MageApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MageApi.app/MageApi";
+			};
+			name = Release;
+		};
+		B523629C27C2277E005CCE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BB552UV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Treehacks2022.MageApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MageApi;
+			};
+			name = Debug;
+		};
+		B523629D27C2277E005CCE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2BB552UV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Treehacks2022.MageApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MageApi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B523626627C2277D005CCE68 /* Build configuration list for PBXProject "MageApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523629327C2277E005CCE68 /* Debug */,
+				B523629427C2277E005CCE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B523629527C2277E005CCE68 /* Build configuration list for PBXNativeTarget "MageApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523629627C2277E005CCE68 /* Debug */,
+				B523629727C2277E005CCE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B523629827C2277E005CCE68 /* Build configuration list for PBXNativeTarget "MageApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523629927C2277E005CCE68 /* Debug */,
+				B523629A27C2277E005CCE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B523629B27C2277E005CCE68 /* Build configuration list for PBXNativeTarget "MageApiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523629C27C2277E005CCE68 /* Debug */,
+				B523629D27C2277E005CCE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B523626327C2277D005CCE68 /* Project object */;
+}
